@@ -1,0 +1,41 @@
+{
+    "name": "njuptaaa/problem-recommendation",
+    "description": "collaborative filtering recommender systems",
+    "license": "MIT",
+    "keywords": [
+        "recommendation",
+        "collaborative filtering",
+        "euclidean distance",
+        "slope one",
+        "recommender system",
+        "recommendation system",
+        "recommendation algorithm",
+        "recommender"
+    ],
+    "authors": [
+        {
+            "name": "Tiago A C Pereira",
+            "email": "tiagocavalcante57@gmail.com"
+        },
+        {
+            "name": "John Zhang",
+            "email": "zsgsdesign@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NJUPTAAA\\ProblemRecommendation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NJUPTAAA\\ProblemRecommendation\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
